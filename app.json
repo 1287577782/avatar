@@ -1,7 +1,8 @@
 {
   "pages": [
       "pages/index/index",
-      "pages/logs/logs"
+      "pages/logs/logs",
+      "pages/usercenter/index"
   ],
   "window": {
     "backgroundTextStyle":"light",
@@ -14,13 +15,19 @@
     "selectedColor": "#FF5F15",
     "backgroundColor": "#ffffff",
     "borderStyle": "black",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页"
-    },
-    {
-      "pagePath": "pages/logs/logs",
-      "text": "分类"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "分类"
+      },
+      {
+          "pagePath": "pages/usercenter/index",
+          "text": "我的"
+      }
+  ]
   }
 }
