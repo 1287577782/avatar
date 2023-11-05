@@ -1,4 +1,12 @@
 /* pages/index/index.wxss */
-.swiper-wrap {
+.home-page-header {
+  background: linear-gradient(#fff, #f5f5f5);
+}
+.home-page-header {
+  display: block;
+  padding: 0 24rpx;
+}
+
+.home-page-header .swiper-wrap {
   margin-top: 20rpx;
 }
