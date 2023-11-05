@@ -7,7 +7,7 @@ Page({
   data: {
     imgSrcs: ["/images/1.jpg",'/images/2.jpg','/images/3.jpg'],
     tabList: [],
-    goodsList: [],
+    channel: [],
     goodsListLoadStatus: 0,
     pageLoading: false,
     current: 1,
