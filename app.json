@@ -4,6 +4,7 @@
       "pages/logs/logs",
       "pages/usercenter/index"
   ],
+  
   "window": {
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
