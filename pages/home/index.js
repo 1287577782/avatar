@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    imgSrcs: ["images/test.png"],
+    tabList: [],
+    goodsList: [],
+    goodsListLoadStatus: 0,
+    pageLoading: false,
+    current: 1,
+    autoplay: true,
+    duration: '500',
+    interval: 5000,
+    navigation: { type: 'dots' },
+    swiperImageProps: { mode: 'scaleToFill' },
   },
 
   /**

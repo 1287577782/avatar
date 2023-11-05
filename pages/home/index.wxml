@@ -1,3 +1,15 @@
-<!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
-<button open-type="feedback">意见反馈</button>
+<view class="home-page-header">
+  <view class="swiper-wrap">
+    <t-swiper
+     wx:if="{{imgSrcs.length > 0}}"
+      current="{{current}}"
+      autoplay="{{autoplay}}"
+      duration="{{duration}}"
+      interval="{{interval}}"
+      navigation="{{ navigation }}"
+      imageProps="{{swiperImageProps}}"
+      list="{{imgSrcs}}"
+    >
+    </t-swiper>
+  </view>
+</view>

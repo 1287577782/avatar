@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "t-navbar": "tdesign-miniprogram/navbar/navbar"
+  },
+  "component": true,
   "navigationBarTitleText": "个人中心"
 }

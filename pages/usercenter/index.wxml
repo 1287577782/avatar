@@ -1,2 +1,7 @@
-<!--pages/usercenter/index.wxml-->
-<text>pages/usercenter/index.wxml</text>
+<view class="block">
+  <t-navbar title="sdbfjkdsh" t-class-title="nav-title"/>
+</view>
+
+<view class="block">
+  <t-navbar class="block" title="标题文字" left-arrow bind:go-back="handleBack" />
+</view>
