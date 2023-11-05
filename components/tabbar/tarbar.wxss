@@ -1,1 +1,9 @@
-/* components/tabbar/tarbar.wxss */
+.custom-tab-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-tab-bar-wrapper .text {
+  font-size: 20rpx;
+}
