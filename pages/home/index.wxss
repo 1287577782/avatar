@@ -1,1 +1,4 @@
 /* pages/index/index.wxss */
+.swiper-wrap {
+  margin-top: 20rpx;
+}
