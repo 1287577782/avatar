@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgSrcs: ["",""],
+    imgSrcs: ["/images/test.png",'',''],
     tabList: [],
     goodsList: [],
     goodsListLoadStatus: 0,
@@ -76,7 +76,7 @@ Page({
   navToActivityDetail({ detail }) {
     const { index: promotionID = 0 } = detail || {};
     wx.navigateTo({
-      url: `/pages/promotion-detail/index?promotion_id=${promotionID}`,
+      url: '/pages/logs/logs'
     });
   }
 })
