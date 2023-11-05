@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgSrcs: ["images/test.png",""],
+    imgSrcs: ["",""],
     tabList: [],
     goodsList: [],
     goodsListLoadStatus: 0,
