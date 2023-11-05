@@ -9,6 +9,7 @@
       navigation="{{ navigation }}"
       imageProps="{{swiperImageProps}}"
       list="{{imgSrcs}}"
+      bind:click="navToActivityDetail"
     >
     </t-swiper>
   </view>

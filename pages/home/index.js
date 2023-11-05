@@ -14,7 +14,7 @@ Page({
     autoplay: true,
     duration: '500',
     interval: 5000,
-    navigation: { type: 'dots' },
+    navigation: { type: 'dots-bar' },
     swiperImageProps: { mode: 'scaleToFill' },
   },
 
@@ -72,5 +72,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  navToActivityDetail({ detail }) {
+    const { index: promotionID = 0 } = detail || {};
+    wx.navigateTo({
+      url: `/pages/promotion-detail/index?promotion_id=${promotionID}`,
+    });
   }
 })
