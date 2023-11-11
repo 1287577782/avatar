@@ -8,7 +8,7 @@ Page({
     imgSrcs: ["/images/1.jpg",'/images/2.jpg','/images/3.jpg'],
     tabList: [],
     channel: [],
-    menu:   [{"name":"鹊桥", "icon":""}, {"name":"安居", "icon":""}, {"name":"招聘","icon":""}, {"name":"", "icon":""}],
+    menu:   [{"name":"鹊桥", "icon":""}, {"name":"安居", "icon":""}, {"name":"招聘","icon":""}, {"name":"家政", "icon":""}],
     goodsListLoadStatus: 0,
     pageLoading: false,
     current: 1,
