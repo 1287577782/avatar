@@ -2,7 +2,8 @@
   "pages": [
       "pages/home/index",
       "pages/logs/logs",
-      "pages/usercenter/index"
+      "pages/usercenter/index",
+      "pages/persiondetail/index"
   ],
   
   "window": {
