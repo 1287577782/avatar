@@ -9,7 +9,7 @@ Page({
     tabList: [],
     channel: [],
     menu:   [{"name":"鹊桥", "icon":""}, {"name":"安居", "icon":""}, {"name":"招聘","icon":""}, {"name":"家政", "icon":""}],
-    goodsListLoadStatus: 0,
+    "list":[],
     pageLoading: false,
     current: 1,
     autoplay: true,

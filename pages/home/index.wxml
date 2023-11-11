@@ -23,4 +23,11 @@
   <t-grid-item text="保存" icon="download" bindclick="onClick" />
   <t-grid-item text="编辑" icon="edit-1" bindclick="onClick" />
   </t-grid>
+  <view>
+    <view class="goods-list-wrap wr-class" >
+	    <block wx:for="{{goodsList}}" wx:for-item="item" wx:key="index">
+        <navigator></navigator>
+	    </block>
+    </view>
+  </view>
 </view>
