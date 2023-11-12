@@ -24,13 +24,14 @@
   <t-grid-item text="编辑" icon="edit-1" bindclick="onClick" />
   </t-grid>
 </view>
+<scroll-view>
 <view class="home-page-body">
 	<block wx:for="{{persionList}}" wx:for-index="index" wx:for-item="item" wx:key="{{item.id}}">
     <navigator url="/pages/goods/goods?id={{item.id}}">
       <view class="card-header">
         <view><image class="img" src="{{item.img}}" mode="widthFix" ></image></view>
         <view><text>sdfsd</text></view>
-        <view><text>dfhsjfh</text></view>
+        <!-- <view><text>dfhsjfh</text></view> -->
       </view>
       <view class="card-body">
         <view>
@@ -42,3 +43,4 @@
     </navigator>
 	</block>    
 </view>
+</scroll-view>
