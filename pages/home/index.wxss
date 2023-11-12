@@ -6,7 +6,27 @@
   display: block;
   padding: 0 24rpx;
 }
-
+.home-page-body {
+  padding: 0 24rpx;
+}
+.home-page-body.card-header {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.container1{
+  flex-direction: row;
+  display: flex;
+}
+.card-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .home-page-header .swiper-wrap {
   margin-top: 20rpx;
+}
+.img {
+  width: 150rpx;
 }
