@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgSrcs: ["/images/1.jpg",'/images/2.jpg','/images/3.jpg'],
+    // imgSrcs: ["/images/1.jpg",'/images/2.jpg','/images/3.jpg'],
     tabList: [],
     channel: [],
     menu:   [{"name":"鹊桥", "icon":""}, {"name":"安居", "icon":""}, {"name":"招聘","icon":""}, {"name":"家政", "icon":""}],
