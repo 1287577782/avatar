@@ -19,7 +19,9 @@
           </view>
         </view>
       </view>
+      <view class="card-footer">shfdfhj</view>
     </navigator>
+
 	</view>    
 </view>
 </scroll-view>
