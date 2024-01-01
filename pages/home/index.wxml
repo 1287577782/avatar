@@ -4,7 +4,7 @@
     <navigator class="list-item" url="/pages/goods/goods?id={{item.id}}">
       <view class="card-header">
         <t-avatar class="title-icon" image="{{item.img}}" />
-        <view style="margin-left: 20rpx;" ><text>{{item.username}}</text></view>
+        <view style="margin-left: 20rpx;" ><text style="font-size: 40rpx;">{{item.username}}</text></view>
         <view wx:if="{{item.gender == 'man'}}"><image class="abc-icon"  src="/icon/fe.png"></image></view>
         <view wx:else><image class="abc-icon"  src="/icon/fe1.png"></image></view>
         <view></view>
@@ -19,7 +19,7 @@
           </view>
         </view>
       </view>
-      <view class="card-footer">shfdfhj</view>
+      <view class="card-footer"><text>2天前</text></view>
     </navigator>
 
 	</view>    
