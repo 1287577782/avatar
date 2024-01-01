@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
+    "t-avatar": "tdesign-miniprogram/avatar/avatar"
   },
   "navigationBarTitleText": "首页",
   "enablePullDownRefresh": true

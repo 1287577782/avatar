@@ -3,9 +3,10 @@
 	<view class ="user-list" wx:for= "{{persionList}}" wx:for-index="index" wx:for-item="item" wx:key="{{item.id}}">
     <navigator class="list-item" url="/pages/goods/goods?id={{item.id}}">
       <view class="card-header">
-        <view><image class="img" src="{{item.img}}" mode="widthFix" ></image></view>
+        <t-avatar class="title-icon" image="{{item.img}}" />
         <view><text>sdfsd</text></view>
-        <!-- <view><text>dfhsjfh</text></view> -->
+        <view wx:if="{{item.gender == 'man'}}"><image class="abc-icon"  src="/icon/fe.png"></image></view>
+        <view wx:else><image class="abc-icon"  src="/icon/fe1.png"></image></view>
       </view>
       <view class="card-body">
         <view>

@@ -6,14 +6,11 @@ Page({
    */
   data: {
     channel: [],
-    "persionList":[{"id":"test1", "img":"/images/1.jpg", "username":"test","disp":"", "hight":175}, 
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165},
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165},
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165},
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165},
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165},
-    {"id":"test2", "img":"/images/2.jpg", "username":"test2","disp":"", "hight":165}]
-  },
+    "persionList":[{"id":"test1", "img":"/icon/man.png",  "gender":"man",  "username":"test",  "disp":"", "hight":175}, 
+                  {"id":"test2",  "img":"/icon/women.png", "gender":"women", "username":"test2", "disp":"", "hight":165},
+                  {"id":"test2",  "img":"/icon/women.png","gender":"women",  "username":"test2", "disp":"", "hight":165},
+                  {"id":"test2",   "img":"/icon/man.png", "gender":"man",  "username":"test2", "disp":"", "hight":165}]
+  }, 
 
   /**
    * 生命周期函数--监听页面加载
