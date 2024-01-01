@@ -6,7 +6,9 @@ Page({
    */
   data: {
     channel: [],
-    "persionList":[{"id":"test1", "img":"/icon/man.png",  "gender":"man",  "username":"test",  "disp":"", "hight":175}, 
+    "persionList":[{"id":"test1", "img":"/icon/man.png",  "gender":"man",  "username":"test",  "disp":"", "hight":175, "picture":[
+      {"url":"/images/t1.jpg"}, {"url":"/images/t2.jpg"},{"url":"/images/t3.jpg"}
+    ]}, 
                   {"id":"test2",  "img":"/icon/women.png", "gender":"women", "username":"test2", "disp":"", "hight":165},
                   {"id":"test2",  "img":"/icon/women.png","gender":"women",  "username":"test2", "disp":"", "hight":165},
                   {"id":"test2",   "img":"/icon/man.png", "gender":"man",  "username":"test2", "disp":"", "hight":165}]
