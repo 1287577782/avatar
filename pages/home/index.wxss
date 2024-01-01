@@ -3,14 +3,12 @@
   background-color: #ffebf2;
   /* background: -webkit-linear-gradient(top, #ed767c,#eaf1f5,white); */
 }
-
 .list-item{
   border-radius: 3mm;
   border: 1px solid #f5f5f5;
   margin: 0rpx;
   margin-top: 10rpx;
   padding: 10rpx;
-  height: 400rpx;
   background-color:#ffffff;
 }
 .card-header {
@@ -32,4 +30,10 @@
 .abc-icon{
   height:35rpx;
   width: 35rpx;
+}
+.body-img{
+  height: 120rpx;
+  width: 100rpx;
+}
+.body_pic_list{
 }

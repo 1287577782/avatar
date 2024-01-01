@@ -10,10 +10,12 @@
       </view>
       <view class="card-body">
         <view>
-          <text>姓名</text><text>{{item.username}}</text>
-          <text>性别</text> <text>未知</text>
-          <text>职业</text>
-
+          <text>【黄桥征婚】士大夫速度很快附件士大夫撒旦喝咖啡活动是否还是看东方航空是的世界的繁华数据库的回复后是否合适的</text>
+          <view class="body_pic_list">
+            <image class="body-img"  bindtap = previewSqs src="/images/t1.jpg" ></image>
+            <image class="body-img" src="/images/t2.jpg"></image>
+            <image class="body-img" src="/images/t3.jpg"></image>
+          </view>
         </view>
       </view>
     </navigator>

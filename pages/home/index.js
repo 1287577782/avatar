@@ -72,5 +72,14 @@ Page({
     wx.navigateTo({
       url: '/pages/logs/logs'
     });
+  },
+  previewSqs(event) {
+      // 拿到图片的地址url
+      let currentUrl = event.currentTarget.dataset.src;
+      // 微信预览图片的方法
+      wx.previewImage({
+          current: currentUrl, // 图片的地址url
+          urls: [currentUrl] // 预览的地址url
+      })
   }
 })
