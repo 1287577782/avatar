@@ -75,7 +75,9 @@ Page({
   },
   previewSqs(event) {
       // 拿到图片的地址url
-      let currentUrl = event.currentTarget.dataset.src;
+      let index = event.currentTarget.dataset.index;
+      let currentUrl="/images/t1.jpg"
+
       // 微信预览图片的方法
       wx.previewImage({
           current: currentUrl, // 图片的地址url
