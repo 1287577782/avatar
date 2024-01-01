@@ -30,6 +30,8 @@
 .abc-icon{
   height:35rpx;
   width: 35rpx;
+  margin-left: 10rpx;
+  margin-top: 6rpx;
 }
 .body-img{
   height: 200rpx;
