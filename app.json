@@ -1,7 +1,6 @@
 {
   "pages": [
       "pages/home/index",
-      "pages/logs/logs",
       "pages/usercenter/index",
       "pages/persiondetail/index"
   ],
@@ -21,10 +20,6 @@
       {
         "pagePath": "pages/home/index",
         "text": "首页"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "分类"
       },
       {
           "pagePath": "pages/usercenter/index",

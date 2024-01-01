@@ -1,15 +1,18 @@
-/* pages/index/index.wxss */
-.home-page-header {
-  background: linear-gradient(#fff, #f5f5f5);
-}
-.home-page-header {
-  display: block;
-  padding: 0 24rpx;
-}
 .home-page-body {
-  padding: 0 24rpx;
+  padding: 0 12rpx;
+  background: -webkit-linear-gradient(top,rgb(223, 241, 241),#eaf1f5,white);
 }
-.home-page-body.card-header {
+
+.list-item{
+  border-radius: 3mm;
+  border: 1px solid #f5f5f5;
+  margin: 0rpx;
+  margin-top: 10rpx;
+  padding: 10rpx;
+  height: 400rpx;
+  background-color:#ffffff;
+}
+.card-header {
   /* display: flex; */
   flex-direction: row;
   flex-wrap: nowrap;
@@ -20,17 +23,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   height: 110rpx;
-}
-
-.container1{
-  border-radius: 1mm;
-  border: 1px solid #f5f5f5;
-  margin: 10rpx;
-  padding: 10rpx;
-  background-color: rgb(207, 209, 201);
-}
-.home-page-header .swiper-wrap {
-  margin-top: 20rpx;
 }
 .img {
   width: 150rpx;
