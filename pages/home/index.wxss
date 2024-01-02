@@ -17,6 +17,15 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
+.card-header-font{
+  font-size: 40rpx; 
+  font-weight: 490;
+}
+.card-body-font{
+  font-size: 30rpx;
+  font-weight: 343;
+  font-style: normal;
+}
 .card-header{
   display: flex;
   flex-direction: row;
