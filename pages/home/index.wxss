@@ -17,6 +17,14 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
+.card-header-user
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: top;
+}
 .card-header-font{
   font-size: 40rpx; 
   font-weight: 490;
@@ -40,17 +48,17 @@
   height:35rpx;
   width: 35rpx;
   margin-left: 10rpx;
-  margin-top: 6rpx;
+  margin-top: 12rpx;
 }
 .body-img{
   height: 200rpx;
-  width:  220rpx;
-  /* display: flex; */
+  width:  200rpx;
 }
 .body_pic_list{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card-footer{
