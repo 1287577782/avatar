@@ -1,7 +1,6 @@
 .home-page-body {
   padding: 0 12rpx;
   background-color: #ffebf2;
-  /* background: -webkit-linear-gradient(top, #ed767c,#eaf1f5,white); */
 }
 .list-item{
   border-radius: 3mm;
