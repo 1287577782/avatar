@@ -21,7 +21,7 @@
           <text class="card-body-font">{{item.introduce}}</text>
           <view class="body_pic_list">
             <view  wx:for= "{{item.picture}}" wx:for-item="item2" wx:key="index" >
-              <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-index="{{item}}"></image>
+              <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-item="{{item}}"></image>
             </view>
           </view>
         </view>

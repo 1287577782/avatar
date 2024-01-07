@@ -82,16 +82,13 @@ Page({
   },
   previewSqs(event) {
       // 拿到图片的地址url
-      let index = 0
       let arr = []
-      let item = event.currentTarget.dataset.index;
+      let item = event.currentTarget.dataset.item;
       for (var i=0;i<item.picture.length;i++)
       {
         arr.push(item.picture[i].url)
       }
       let currentUrl="/images/t1.jpg" 
-      console.log(index)
-      console.log(item)
       // 微信预览图片的方法
       wx.previewImage({
           current: currentUrl, // 图片的地址url
