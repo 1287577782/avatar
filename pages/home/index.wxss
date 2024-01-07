@@ -48,7 +48,7 @@
   height:35rpx;
   width: 35rpx;
   margin-left: 10rpx;
-  margin-top: 12rpx;
+  margin-top: 8rpx;
 }
 .body-img{
   height: 200rpx;
