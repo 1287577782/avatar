@@ -88,7 +88,7 @@ Page({
       {
         arr.push(item.picture[i].url)
       }
-      let currentUrl="/images/t1.jpg" 
+      let currentUrl= event.currentTarget.dataset.src;
       // 微信预览图片的方法
       wx.previewImage({
           current: currentUrl, // 图片的地址url
