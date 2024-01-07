@@ -16,7 +16,7 @@
           <text class="card-body-font"> 【黄桥征婚】士大夫速度很快附件士大夫撒旦喝咖啡活动是否还是看东方航空是的世界的繁华数十大富豪上岛咖啡受到核辐射的恢复健康是收到回复即可获胜的开发返回的数据客户反馈圣诞节回复据库的回复后是否合适的速</text>
           <view class="body_pic_list">
             <view  wx:for= "{{item.picture}}" wx:for-item="item2" wx:key="index" >
-              <image class = "body-img" src= "{{item2.url}}" bind:tap="previewSqs"  data-index="{{item.id}}"></image>
+              <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-index="{{item.id}}"></image>
             </view>
           </view>
         </view>
