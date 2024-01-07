@@ -26,8 +26,8 @@
   align-items: top;
 }
 .card-header-font{
-  font-size: 40rpx; 
-  font-weight: 490;
+  font-size: 30rpx; 
+  font-weight: 420;
 }
 .card-body-font{
   font-size: 30rpx;
