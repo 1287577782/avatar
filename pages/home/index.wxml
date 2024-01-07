@@ -18,7 +18,7 @@
       </view>
       <view class="card-body">
         <view>
-          <text class="card-body-font">【黄桥征婚】89年勤丰村小哥哥，身高175，体重140斤，大专学历，国企非编，年收入10W，工作稳定，希望找一位89-95年之间，升高160以上的女孩</text>
+          <text class="card-body-font">{{item.introduce}}</text>
           <view class="body_pic_list">
             <view  wx:for= "{{item.picture}}" wx:for-item="item2" wx:key="index" >
               <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-index="{{item.id}}"></image>
