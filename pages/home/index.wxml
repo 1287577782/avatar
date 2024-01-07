@@ -1,6 +1,6 @@
 <scroll-view>
 <view class="home-page-body">
-	<view class ="user-list" wx:for= "{{persionList}}" wx:for-index="index" wx:for-item="item" wx:key="{{item.id}}">
+	<view class ="user-list" wx:for= "{{persionList}}" wx:for-index="index" wx:for-item="item">
     <navigator class="list-item" url="/pages/goods/goods?id={{item.id}}">
       <view class="card-header">
         <t-avatar class="title-icon" image="{{item.img}}" />
@@ -21,7 +21,7 @@
           <text class="card-body-font">{{item.introduce}}</text>
           <view class="body_pic_list">
             <view  wx:for= "{{item.picture}}" wx:for-item="item2" wx:key="index" >
-              <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-index="{{item.id}}"></image>
+              <image class = "body-img" src= "{{item2.url}}" mode="aspectFill" bind:tap="previewSqs"  data-index="{{item}}"></image>
             </view>
           </view>
         </view>

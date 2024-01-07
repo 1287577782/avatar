@@ -17,7 +17,7 @@ Page({
                   {"id":"test3",   "img":"/icon/man.png", "gender":"man",  "username":"流年", "introduce":"【黄桥征婚】95年泰兴小哥哥，身高168，有房有车，本科学历，事业单位工作，年收入17W，阳光开朗，有上进心。希望找一位工作稳定，真诚靠谱的女孩。", "hight":168, "picture":[
                     {"url":"/images/LiXian1.jpeg"}, {"url":"/images/LiXian2.jpeg"},{"url":"/images/LiXian3.jpeg"}
                   ]}]
-  } 
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -82,13 +82,20 @@ Page({
   },
   previewSqs(event) {
       // 拿到图片的地址url
-      let index = event.currentTarget.dataset.index;
-      let currentUrl="/images/t1.jpg"
-
+      let index = 0
+      let arr = []
+      let item = event.currentTarget.dataset.index;
+      for (var i=0;i<item.picture.length;i++)
+      {
+        arr.push(item.picture[i].url)
+      }
+      let currentUrl="/images/t1.jpg" 
+      console.log(index)
+      console.log(item)
       // 微信预览图片的方法
       wx.previewImage({
           current: currentUrl, // 图片的地址url
-          urls: [currentUrl] // 预览的地址url
+          urls: arr // 预览的地址url
       })
   }
 })
