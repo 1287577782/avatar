@@ -23,7 +23,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+      wx.showShareMenu({
+        withShareTicket: true,
+        menus: ['shareAppMessage', 'shareTimeline']
+      })
   },
 
   /**
@@ -72,7 +75,11 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage() {
-
+    return {
+      title: "知根知底的征婚平台",
+      path: "/pages/home/index",
+      imageUrl: "/images/LiuYiFei1.jpg"
+    }
   },
   navToActivityDetail({ detail }) {
     const { index: promotionID = 0 } = detail || {};
