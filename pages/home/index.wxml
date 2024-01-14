@@ -11,7 +11,7 @@
             <view wx:else><image class="abc-icon"  src="/icon/fe1.png"></image></view>
           </view>
           <view>
-          <text style="margin-left: 20rpx; font-size: 25rpx;font-weight: 300;">18岁 . {{item.hight}}cm . 52kg</text>
+          <text style="margin-left: 20rpx; font-size: 20rpx;font-weight: 50;">18岁 . {{item.hight}}cm . 52kg</text>
           </view>
         </view>
         <view></view>

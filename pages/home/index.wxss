@@ -1,13 +1,13 @@
 .home-page-body {
-  padding: 0 12rpx;
+  padding: 0 28rpx;
   background-color: #ffebf2;
 }
 .list-item{
-  border-radius: 3mm;
+  border-radius: 25rpx;
   border: 1px solid #f5f5f5;
   margin: 0rpx;
   margin-top: 10rpx;
-  padding: 10rpx;
+  padding: 28rpx;
   background-color:#ffffff;
 }
 .card-header {
@@ -25,12 +25,12 @@
   align-items: top;
 }
 .card-header-font{
-  font-size: 30rpx; 
+  font-size: 28rpx; 
   font-weight: 420;
 }
 .card-body-font{
   font-size: 30rpx;
-  font-weight: 343;
+  font-weight: 350;
   font-style: normal;
 }
 .card-header{
@@ -52,6 +52,7 @@
 .body-img{
   height: 200rpx;
   width:  200rpx;
+  border-radius: 15rpx;
 }
 .body_pic_list{
   display: flex;
