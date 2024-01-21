@@ -26,7 +26,14 @@ Page({
       wx.showShareMenu({
         withShareTicket: true,
         menus: ['shareAppMessage', 'shareTimeline']
-      })
+      });
+      // wx.request({
+      //   url: 'https://ip:port/api/users',
+      //   method:"GET",
+      //   timeout:1000,
+      //   success:function(res){this.setdata({persionList: res.data})},
+      //   fail:function (err) {console.log(err);}
+      // });
   },
 
   /**
