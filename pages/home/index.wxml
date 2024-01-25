@@ -26,7 +26,12 @@
           </view>
         </view>
       </view>
-      <view class="card-footer"><text style="font-size: 25rpx; font-weight: 320;">2天前</text></view>
+      <view class="card-footer">
+        <text style="font-size: 25rpx; font-weight: 320;">2天前</text>
+        <view class="share" bind:tap='share' >
+          <image class="share-img" src="/icon/share.png"></image>
+        </view>
+      </view>
     </navigator>
 	</view>    
 </view>

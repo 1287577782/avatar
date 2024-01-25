@@ -88,6 +88,15 @@ Page({
       imageUrl: "/images/LiuYiFei1.jpg"
     }
   },
+
+  onShareTimeline() {
+    return {
+      title: "知根知底的征婚平台",
+      query: 'from=pyq',
+      imageUrl: "/images/LiuYiFei1.jpg"
+    }
+  },
+
   navToActivityDetail({ detail }) {
     const { index: promotionID = 0 } = detail || {};
     wx.navigateTo({

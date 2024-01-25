@@ -11,8 +11,14 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
+  onLoad() {
+    wx.showShareMenu({
 
+      withShareTicket:true,
+      
+      menus:['shareAppMessage','shareTimeline']
+      
+      });
   },
 
   /**
@@ -62,5 +68,9 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  onShareTimeline() {
+ 
   }
 })
