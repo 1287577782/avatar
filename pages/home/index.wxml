@@ -28,9 +28,9 @@
       </view>
       <view class="card-footer">
         <text style="font-size: 25rpx; font-weight: 320;">2天前</text>
-        <view class="share" bind:tap='share' >
+        <button class="share" open-type="share">
           <image class="share-img" src="/icon/share.png"></image>
-        </view>
+        </button>
       </view>
     </navigator>
 	</view>    

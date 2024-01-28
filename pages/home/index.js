@@ -81,11 +81,19 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage() {
-    return {
-      title: "知根知底的征婚平台",
-      path: "/pages/home/index",
-      imageUrl: "/images/LiuYiFei1.jpg"
+  onShareAppMessage: function (ops) {
+    if (ops.from === 'button'){
+      return {
+        title: "知根知底的征婚平台",
+        path: "/pages/home/index",
+        imageUrl: "/images/LiuYiFei1.jpg"
+      }
+    } else {
+      return {
+        title: "知根知底的征婚平台",
+        path: "/pages/home/index",
+        imageUrl: "/images/LiuYiFei1.jpg"
+      }
     }
   },
 

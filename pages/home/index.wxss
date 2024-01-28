@@ -64,10 +64,23 @@
 .card-footer{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-top: 20rpx;
+}
+.share{
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+
+.share::after{
+  border: none;
 }
 
 .share-img{
   height: 28rpx;
   width:  28rpx;
+  float: right;
 }
