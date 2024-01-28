@@ -5,6 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
+    movies: [
+      { url: '/images/move1.jpg' },
+      { url: '/images/t2.jpg' },
+      { url: '/images/t3.jpg' },
+      { url: '/images/s4.jpg' }
+    ],
+
     "persionList":[{"id":"test0", "img":"/icon/man.png",  "gender":"man",  "username":"子非鱼乐",  "introduce":"【黄桥征婚】89年勤丰村小哥哥，身高175，体重140斤，大专学历，国企非编，年收入10W，工作稳定，希望找一位89-95年之间，身高160以上的女孩。", "hight":175, "picture":[
       {"url":"/images/t1.jpg"}, {"url":"/images/t2.jpg"},{"url":"/images/t3.jpg"}
     ]}, 

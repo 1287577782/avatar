@@ -1,4 +1,14 @@
 <scroll-view>
+<view>
+<!--轮播图-->
+   <swiper indicator-dots='true' autoplay='true' interval='5000'  duration='1000' circular='true'>
+     <block wx:for="{{movies}}" wx:for-index="index">
+       <swiper-item>
+         <image src='{{item.url}}' mode='aspectFill'></image>
+       </swiper-item>
+     </block>
+   </swiper>
+</view>
 <view class="home-page-body">
 	<view class ="user-list" wx:for= "{{persionList}}" wx:for-index="index" wx:for-item="item">
     <navigator class="list-item" url="/pages/goods/goods?id={{item.id}}">
